@@ -1,0 +1,17 @@
+# Claude Code local settings (machine-specific, do not commit)
+.claude/settings.local.json
+
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# OS
+.DS_Store
