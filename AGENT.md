@@ -5,12 +5,12 @@ Read this entire file before starting any task.
 ---
 
 ## Technical Stack (NEVER DEVIATE)
-- **Framework**: Next.js 14 (App Router)
-- **Styling**: Tailwind CSS v3.4
-- **Language**: TypeScript
+- **Framework**: Next.js 15 (App Router / React 19)
+- **Styling**: Tailwind CSS v3.4 + Shadcn UI (Component Pattern)
+- **Language**: TypeScript (Strict Mode)
 - **Animations**: GSAP 3 (for macro) + Framer Motion (for micro)
 - **Scrolling**: Lenis (Smooth Scroll)
-- **Deployment**: Vercel
+- **Deployment**: Vercel / Netlify
 
 ---
 
@@ -75,6 +75,12 @@ Act as a World-Class Senior Creative Technologist. You don't build generic websi
 - **Typography**: "Inter" (Thin) + "Newsreader" Italic.
 - **Mood**: White architecture, soft shadows, minimal textures.
 
+### Preset F — "Earthly Presence" (Retro-Organic)
+- **Identity**: Human-centric, tactile, and warm. A move away from cold digital towards "scrapbook" craft.
+- **Palette**: Terracotta `#D97757`, Oat `#E6D5C3`, Sage `#7D8F7B`, Deep Earth `#3C2F2F`.
+- **Typography**: "Fraunces" (Variable) + "Space Mono".
+- **Mood**: Paper grain, torn edges, organic shapes, film photography.
+
 ---
 
 ## Core Design Rules
@@ -96,16 +102,27 @@ Act as a World-Class Senior Creative Technologist. You don't build generic websi
     - **Card 1 — Diagnostic Shuffler**: Overlapping vertical cycling cards.
     - **Card 2 — Telemetry Typewriter**: Monospaced live-text feed with a pulsing cursor.
     - **Card 3 — Protocol Scheduler**: Weekly grid with an animated cursor interaction.
+    - **Card 4 — Narrative Scroll**: Horizontal parallax track that reveals steps as the user scrolls.
+
+### 5. 2025 Architecture & Performance
+- **Component Pattern**: Use **Shadcn UI**-style modularity. Components should be self-contained in `components/ui/` or `components/shared/`.
+- **Zero-Layout-Shift (CLS)**: Every animation must be audited for CLS. Use absolute positioning or transforms, never animating layout props (width/height/margin) directly.
+- **Automated Audits**: Include a `scripts/audit.ts` that runs Lighthouse and Playwright for accessibility (a11y) and performance checks.
 
 ---
 
 ## Skills
 
-These skills live in `.agent/skills/` and activate automatically.
+These skills live in `.agent/skills/` and activate automatically. They are your elite teammates.
 
-- **`ui-ux-pro-max`**: Design system setup (palette, type, spacing).
-- **`frontend-design`**: Visual implementation and layout.
-- **`react-best-practices`**: Code quality, performance, and accessibility auditing.
+| Domain | Skill | When to use |
+|---|---|---|
+| **Branding & Copy** | `copywriter-prime` | High-conversion headlines, value props, AIDA copy, and eliminating "AI slop" text. |
+| **Experience Design** | `ui-ux-pro-max` | Design system setup (palette, type, spacing), and user flow optimization. |
+| **Visual Aesthetics** | `taste-skill` | Elevating "Vercel-core" aesthetics, high-end typography, and premium UI density. |
+| **Implementation** | `frontend-design` | Visual implementation, component architecture, and GSAP/Framer Motion integration. |
+| **Code Ethics** | `react-best-practices` | Performance, a11y auditing, React 19 standards, and elimination of CLS. |
+| **Launch Protocol** | `launch-expert` | SEO (JSON-LD, Sitemap), Open Graph social cards, and Vercel/Deployment config. |
 
 ---
 

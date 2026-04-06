@@ -46,13 +46,16 @@ The `AGENT.md` and all skills load automatically upon opening the workspace.
 
 ## Bundled skills
 
-These live in `.agent/skills/` and activate automatically — they are your expert teammates.
+These live in `.agent/skills/` and activate automatically — they are your elite teammates.
 
-| Skill | Activates when you say |
+| Skill | Expert Domain |
 |---|---|
-| `ui-ux-pro-max` | "Choose colors / fonts / set up my design system" |
-| `frontend-design` | "Build a component / page / UI" |
-| `react-best-practices` | "Review my code / optimize this component" |
+| **`copywriter-prime`** | High-conversion headlines and eliminating "AI slop" copy. |
+| **`ui-ux-pro-max`** | Advanced Design Systems (Next-level palettes, fonts, spacing). |
+| **`taste-skill`** | "Vercel-core" aesthetics and high-density UI logic. |
+| **`frontend-design`** | Immersive 2025 interactions and GSAP/Framer Motion. |
+| **`react-best-practices`** | React 19 standards, performance (CLS), and accessibility. |
+| **`launch-expert`** | The "Final 20%" (SEO, OG Cards, JSON-LD, Sitemap). |
 
 ---
 
