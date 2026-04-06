@@ -11,6 +11,7 @@ Read this entire file before starting any task.
 - `/brutalist` — Activates **Industrial-Brutalist & Tactical Telemetry UI**.
 - `/soft` — Activates **High-Fidelity/Cinematic UI** (Vercel-core).
 - `/boutique` — Activates **Modern Artisanal & Boutique Narrative**.
+- `/food` — Activates **Local Food Business Architect** (Warm Hearth).
 - `/audit` — Triggers a full UI/UX, accessibility, and code-best-practices review.
 - `/launch` — Activates **Launch Protocol** (SEO, OG Cards, Vercel Config).
 - `/debug [error]` — One-shot fix for any tech/build error.
@@ -106,6 +107,12 @@ Act as a World-Class Senior Creative Technologist. You don't build generic websi
 - **Typography**: "Newsreader" + "Space Mono" (Label Mono).
 - **Mood**: Sticker-style offsets, organic masking, tactile textures, extreme narrative whitespace.
 
+### Preset H — "The Warm Hearth" (Gourmet Lifestyle)
+- **Identity**: Local bakeries, cafes, and restaurants. Tactile, immersive, and appetizing.
+- **Palette**: Crust Brown `#4B3621`, Sage `#7D8F7B`, Wine Red `#722F37`, Cream `#FFFDD0`.
+- **Typography**: "Fraunces" (Variable) + "JetBrains Mono".
+- **Mood**: High-density menus, live sourdough clocks, atmospheric grain, 1:1 food textures.
+
 ---
 
 ## Core Design Rules
@@ -144,7 +151,8 @@ These skills live in `.agent/skills/` and activate automatically. They are your 
 |---|---|---|
 | **Branding & Copy** | `copywriter-prime` | High-conversion headlines, value props, AIDA copy, and eliminating "AI slop" text. |
 | **Experience Design** | `ui-ux-pro-max` | Comprehensive design intelligence, accessibility, and user flow optimization. |
-| **Visual Aesthetics** | `taste-skill` | **Modular Taste Suite**: Includes `minimalist-skill`, `brutalist-skill`, `soft-skill`, `boutique-skill`, and `taste-skill` (dials). |
+| **Visual Aesthetics** | `taste-skill` | **Modular Taste Suite**: Includes `minimalist-skill`, `brutalist-skill`, `soft-skill`, `boutique-skill`, and `taste-skill`. |
+| **Industry Specialism** | `food-business-expert` | Menu architectures, Reservation flows, and local food storytelling. |
 | **Implementation** | `frontend-design` | Visual implementation, component architecture, and GSAP/Framer Motion integration. |
 | **Animation Engine** | `stitch-skill` | Creative animation choreography, narrative scroll, and visual storytelling. |
 | **Audit & Refactor** | `redesign-skill` | Structural auditing, prop-drilling elimination, and senior-level architecture cleanup. |

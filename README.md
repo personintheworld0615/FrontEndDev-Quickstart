@@ -42,6 +42,7 @@ Type these for instant execution without writing full sentences.
 | **`/brutalist`** | Activates **Tactical UI** (Grids, Monospace). | Brutalist |
 | **`/soft`** | Activates **High-Fidelity UI** (Glass, Noise). | Cinematic |
 | **`/boutique`** | Activates **Modern Artisanal** (Layered, Oat). | Boutique |
+| **`/food`** | Activates **Local Food Architect** (Warm Hearth). | Culinarian |
 | **`/audit`** | Full UI/UX, Performance, and A11y code audit. | Quality |
 | **`/launch`** | Production readiness (SEO + OG Cards). | Devops |
 | **`/debug [error]`** | One-shot fix for any tech/build error. | Support |
