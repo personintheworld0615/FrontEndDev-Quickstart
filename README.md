@@ -73,6 +73,7 @@ These live in `.agent/skills/` and activate automatically — they are your elit
 | **`frontend-design`** | Immersive 2025 interactions and GSAP/Framer Motion. |
 | **`stitch-skill`** | The Animation Engine (Narrative Scroll, Storytelling). |
 | **`react-best-practices`** | React 19 standards, performance (CLS), and accessibility. |
+| **`pixel-perfect-audit`** | Seniors-only structural and accessibility auditing (WCAG 2.1). |
 | **`launch-expert`** | The "Final 20%" (SEO, OG Cards, JSON-LD, Sitemap). |
 
 ---

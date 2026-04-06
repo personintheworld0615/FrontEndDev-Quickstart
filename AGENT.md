@@ -155,7 +155,7 @@ These skills live in `.agent/skills/` and activate automatically. They are your 
 | **Industry Specialism** | `food-business-expert` | Menu architectures, Reservation flows, and local food storytelling. |
 | **Implementation** | `frontend-design` | Visual implementation, component architecture, and GSAP/Framer Motion integration. |
 | **Animation Engine** | `stitch-skill` | Creative animation choreography, narrative scroll, and visual storytelling. |
-| **Audit & Refactor** | `redesign-skill` | Structural auditing, prop-drilling elimination, and senior-level architecture cleanup. |
+| **Audit & Refactor** | `pixel-perfect-audit` | Structural auditing, prop-drilling elimination, and senior-level architecture cleanup. |
 | **Code Ethics** | `react-best-practices` | Performance, a11y auditing, React 19 standards, and elimination of CLS. |
 | **Output Guard** | `output-skill` | Strictly enforces **zero placeholders** and 100% complete file deliveries. |
 | **Launch Protocol** | `launch-expert` | SEO (JSON-LD, Sitemap), Open Graph social cards, and Vercel/Deployment config. |
@@ -166,3 +166,5 @@ These skills live in `.agent/skills/` and activate automatically. They are your 
 1. [UX] Always stick to Light Mode unless explicitly asked — user preference for light mode aesthetic.
 2. [CODE] No placeholders. Every file must be a 100% complete delivery.
 3. [DESIGN] For Artisanal builds (Preset G), utilize "Sticker Offsets" and "Arched Masking" to break the 12-column grid and simulate a physical scrapbook feel.
+4. [QUALITY] Run `/audit` (Pixel-Perfect Sentinel) on every build to verify 1:1 CLS checks and WCAG 2.1 compliance.
+5. [COPY] All brand narratives must follow the AIDA framework (Attention, Interest, Desire, Action) and ban "AI slop" corporate keywords.
