@@ -147,9 +147,10 @@ Act as a World-Class Senior Creative Technologist. You don't build generic websi
 
 These skills live in `.agent/skills/` and activate automatically. They are your elite teammates.
 
-| Domain | Skill | Expert Domain |
+| **Domain** | **Skill** | **Expert Domain** |
 |---|---|---|
-| **Branding & Copy** | `copywriter-prime` | High-conversion headlines, value props, AIDA copy, and eliminating "AI slop" text. |
+| **Branding & Copy** | `copywriter-prime` | High-conversion headlines, AIDA copy, and eliminating "AI slop" text. |
+| **Strategy & Insight** | `research-prime` | Autonomous competitive auditing and "Taste" discovery (Karpathy-core). |
 | **Experience Design** | `ui-ux-pro-max` | Comprehensive design intelligence, accessibility, and user flow optimization. |
 | **Visual Aesthetics** | `taste-skill` | **Modular Taste Suite**: Includes `minimalist-skill`, `brutalist-skill`, `soft-skill`, `boutique-skill`, and `taste-skill`. |
 | **Industry Specialism** | `food-business-expert` | Menu architectures, Reservation flows, and local food storytelling. |
@@ -168,3 +169,4 @@ These skills live in `.agent/skills/` and activate automatically. They are your 
 3. [DESIGN] For Artisanal builds (Preset G), utilize "Sticker Offsets" and "Arched Masking" to break the 12-column grid and simulate a physical scrapbook feel.
 4. [QUALITY] Run `/audit` (Pixel-Perfect Sentinel) on every build to verify 1:1 CLS checks and WCAG 2.1 compliance.
 5. [COPY] All brand narratives must follow the AIDA framework (Attention, Interest, Desire, Action) and ban "AI slop" corporate keywords.
+6. [STRATEGY] Prioritize **Research-First** development. If a brand is new/unknown, use `research-prime` to scrape the top 3 global competitors and derive the "Taste" of the market before building.

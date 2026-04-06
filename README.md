@@ -68,6 +68,7 @@ These live in `.agent/skills/` and activate automatically — they are your elit
 | Skill | Expert Domain |
 |---|---|
 | **`copywriter-prime`** | High-conversion headlines and eliminating "AI slop" copy. |
+| **`research-prime`** | Autonomous competitive auditing (Karpathy "AutoResearch"). |
 | **`ui-ux-pro-max`** | Advanced Design Systems (Next-level palettes, fonts, spacing). |
 | **`taste-skill`** | **Modular Taste Suite**: includes Minimalist, Brutalist, Soft, and Boutique skills. |
 | **`frontend-design`** | Immersive 2025 interactions and GSAP/Framer Motion. |
