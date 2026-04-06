@@ -119,7 +119,7 @@ These skills live in `.agent/skills/` and activate automatically. They are your 
 |---|---|---|
 | **Branding & Copy** | `copywriter-prime` | High-conversion headlines, value props, AIDA copy, and eliminating "AI slop" text. |
 | **Experience Design** | `ui-ux-pro-max` | Design system setup (palette, type, spacing), and user flow optimization. |
-| **Visual Aesthetics** | `taste-skill` | Elevating "Vercel-core" aesthetics, high-end typography, and premium UI density. |
+| **Visual Aesthetics** | `taste-skill` | Elevating interfaces with metric-based rules (Variance, Motion, Density) and Anti-Slop logic (No Inter/Lila). |
 | **Implementation** | `frontend-design` | Visual implementation, component architecture, and GSAP/Framer Motion integration. |
 | **Code Ethics** | `react-best-practices` | Performance, a11y auditing, React 19 standards, and elimination of CLS. |
 | **Launch Protocol** | `launch-expert` | SEO (JSON-LD, Sitemap), Open Graph social cards, and Vercel/Deployment config. |
