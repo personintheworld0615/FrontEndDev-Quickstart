@@ -34,12 +34,15 @@ The `AGENT.md` and all skills load automatically upon opening the workspace.
 ## 🔥 Slash Commands (Ultra-Speed)
 Type these for instant execution without writing full sentences.
 
-| Command | Action |
-|---|---|
-| **`/build [brand]`** | Scaffolds a full 100% complete landing page for that brand concept. |
-| **`/ui [type]`** | Builds a high-fidelity component (e.g. `/ui pricing`). |
-| **`/audit`** | Full UI/UX, Performance, and A11y code audit. |
-| **`/launch`** | Production readiness (SEO + Open Graph + Deployment). |
+| Command | Action | Mode |
+|---|---|---|
+| **`/build [brand]`** | Scaffolds a full 100% complete landing page. | Cinematic |
+| **`/ui [type]`** | Builds a high-fidelity component (e.g. `/ui pricing`). | Standard |
+| **`/minimalist`** | Activates the **Zen Protocol** (Whitespace, Scale, Hierarchy). | Minimal |
+| **`/brutalist`** | Activates **Tactical/Industrial UI** (Grids, Monospace). | Brutalist |
+| **`/soft`** | Activates **High-Fidelity/Vercel UI** (Glass, Noise, GSAP). | Cinematic |
+| **`/audit`** | Full UI/UX, Performance, and A11y code audit. | Quality |
+| **`/launch`** | Production readiness (SEO + Open Graph + Deployment). | Devops |
 
 ---
 
@@ -47,9 +50,10 @@ Type these for instant execution without writing full sentences.
 | What you want | What to say |
 |---|---|
 | A full site from scratch | **`/build coffee shop`** |
-| A single component | **`/ui hero section`** |
-| Deployment to Vercel | **`/launch`** |
-| Code review | **`/audit`** |
+| A specific "Tactical" UI | **`/brutalist dashboard`** |
+| A "Zen" portfolio | **`/minimalist gallery`** |
+| A high-end Vercel UI | **`/soft hero section`** |
+| Deployment | **`/launch`** |
 
 ---
 

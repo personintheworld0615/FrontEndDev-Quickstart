@@ -4,11 +4,12 @@ Read this entire file before starting any task.
 
 ---
 
-## Quick-Triggers (Slash Commands)
-Use these for maximum speed. No sentences required.
-
-- `/build [concept]` — Activates **Zero-Prompt Mode** for a full landing page.
+## ⚡ Quick-Triggers (Slash Commands)
+- `/build [concept]` — Scaffolds a full 100% complete landing page.
 - `/ui [type]` — Build a specific UI component using current Taste Dials.
+- `/minimalist` — Activates **Minimalist-Modern UI Architect** (Zen Protocol).
+- `/brutalist` — Activates **Industrial-Brutalist & Tactical Telemetry UI**.
+- `/soft` — Activates **High-Fidelity/Cinematic UI** (Vercel-core).
 - `/audit` — Triggers a full UI/UX, accessibility, and code-best-practices review.
 - `/launch` — Activates **Launch Protocol** (SEO, OG Cards, Vercel Config).
 
@@ -130,13 +131,16 @@ Act as a World-Class Senior Creative Technologist. You don't build generic websi
 
 These skills live in `.agent/skills/` and activate automatically. They are your elite teammates.
 
-| Domain | Skill | When to use |
+| Domain | Skill | Expert Domain |
 |---|---|---|
 | **Branding & Copy** | `copywriter-prime` | High-conversion headlines, value props, AIDA copy, and eliminating "AI slop" text. |
-| **Experience Design** | `ui-ux-pro-max` | Design system setup (palette, type, spacing), and user flow optimization. |
-| **Visual Aesthetics** | `taste-skill` | Elevating interfaces with metric-based rules (Variance, Motion, Density) and Anti-Slop logic (No Inter/Lila). |
+| **Experience Design** | `ui-ux-pro-max` | Comprehensive design intelligence, accessibility, and user flow optimization. |
+| **Visual Aesthetics** | `taste-skill` | **Modular Taste Suite**: Includes `minimalist-skill`, `brutalist-skill`, `soft-skill`, and `taste-skill` (dials). |
 | **Implementation** | `frontend-design` | Visual implementation, component architecture, and GSAP/Framer Motion integration. |
+| **Animation Engine** | `stitch-skill` | Creative animation choreography, narrative scroll, and visual storytelling. |
+| **Audit & Refactor** | `redesign-skill` | Structural auditing, prop-drilling elimination, and senior-level architecture cleanup. |
 | **Code Ethics** | `react-best-practices` | Performance, a11y auditing, React 19 standards, and elimination of CLS. |
+| **Output Guard** | `output-skill` | Strictly enforces **zero placeholders** and 100% complete file deliveries. |
 | **Launch Protocol** | `launch-expert` | SEO (JSON-LD, Sitemap), Open Graph social cards, and Vercel/Deployment config. |
 
 ---
