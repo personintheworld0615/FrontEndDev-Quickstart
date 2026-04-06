@@ -4,6 +4,16 @@ Read this entire file before starting any task.
 
 ---
 
+## Quick-Triggers (Slash Commands)
+Use these for maximum speed. No sentences required.
+
+- `/build [concept]` — Activates **Zero-Prompt Mode** for a full landing page.
+- `/ui [type]` — Build a specific UI component using current Taste Dials.
+- `/audit` — Triggers a full UI/UX, accessibility, and code-best-practices review.
+- `/launch` — Activates **Launch Protocol** (SEO, OG Cards, Vercel Config).
+
+---
+
 ## Technical Stack (NEVER DEVIATE)
 - **Framework**: Next.js 15 (App Router / React 19)
 - **Styling**: Tailwind CSS v3.4 + Shadcn UI (Component Pattern)
@@ -15,18 +25,23 @@ Read this entire file before starting any task.
 ---
 
 ## Prompt Router
-Match user intent to a template below. Fill known fields automatically, ask max 2 questions for unknowns, then execute.
+Match user intent to a shortcut or template. Fill known fields automatically, ask max 2 questions for unknowns, then execute.
 
-| Intent | Template |
+## Zero-Prompt Mode
+If the user provides ONLY a brand/concept (e.g. `/build coffee`), **skip all questions**. 
+1. Use `ui-ux-pro-max` to derive the best industry palette/fonts.
+2. Use `copywriter-prime` to generate the full brand narrative.
+3. Build the 100% complete page immediately.
+
+## Shortcut Map
+| Command | Intent |
 |---|---|
-| Build a Landing Page | `[LANDING_PAGE]` — Follow the Cinematic Builder section |
-| Build a UI Component | `[COMPONENT]` |
-| Fix a Bug | `[DEBUG]` |
-| Add Authentication | `[AUTH]` |
-| Build a Dashboard | `[DASHBOARD]` |
-| UI/Code Review | `[UI_REVIEW]` |
-| Deploy to Vercel | `[DEPLOY]` |
-| Build Data Admin/CRUD | `[CRUD_PAGE]` |
+| `/build [brand]` | `[LANDING_PAGE]` (Skip discovery if brand provided) |
+| `/ui [component]` | `[COMPONENT]` |
+| `/debug [error]` | `[DEBUG]` |
+| `/audit` | `[UI_REVIEW]` |
+| `/launch` | `[DEPLOY]` + `[LAUNCH_EXPERT]` |
+| `/crud [model]` | `[CRUD_PAGE]` |
 
 ---
 

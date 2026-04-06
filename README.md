@@ -31,16 +31,25 @@ The `AGENT.md` and all skills load automatically upon opening the workspace.
 
 ---
 
-## Example prompts
+## 🔥 Slash Commands (Ultra-Speed)
+Type these for instant execution without writing full sentences.
 
+| Command | Action |
+|---|---|
+| **`/build [brand]`** | Scaffolds a full 100% complete landing page for that brand concept. |
+| **`/ui [type]`** | Builds a high-fidelity component (e.g. `/ui pricing`). |
+| **`/audit`** | Full UI/UX, Performance, and A11y code audit. |
+| **`/launch`** | Production readiness (SEO + Open Graph + Deployment). |
+
+---
+
+## Example Flow
 | What you want | What to say |
 |---|---|
-| A full landing page | "Build a landing page for my fitness app" |
-| A single component | "Build a pricing card with a free and pro tier" |
-| Authentication | "Add Google login that redirects to /dashboard" |
-| A data dashboard | "Build a dashboard showing monthly revenue and signups" |
-| UI Code Review | "Review my codebase for performance and best practices" |
-| Deploy to Vercel | "Deploy this project to Vercel" |
+| A full site from scratch | **`/build coffee shop`** |
+| A single component | **`/ui hero section`** |
+| Deployment to Vercel | **`/launch`** |
+| Code review | **`/audit`** |
 
 ---
 
