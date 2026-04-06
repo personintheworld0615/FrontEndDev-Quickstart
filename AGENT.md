@@ -10,8 +10,11 @@ Read this entire file before starting any task.
 - `/minimalist` — Activates **Minimalist-Modern UI Architect** (Zen Protocol).
 - `/brutalist` — Activates **Industrial-Brutalist & Tactical Telemetry UI**.
 - `/soft` — Activates **High-Fidelity/Cinematic UI** (Vercel-core).
+- `/boutique` — Activates **Modern Artisanal & Boutique Narrative**.
 - `/audit` — Triggers a full UI/UX, accessibility, and code-best-practices review.
 - `/launch` — Activates **Launch Protocol** (SEO, OG Cards, Vercel Config).
+- `/debug [error]` — One-shot fix for any tech/build error.
+- `/crud [model]` — Scaffolds a full Admin/Dashboard page.
 
 ---
 

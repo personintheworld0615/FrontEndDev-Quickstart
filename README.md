@@ -36,13 +36,16 @@ Type these for instant execution without writing full sentences.
 
 | Command | Action | Mode |
 |---|---|---|
-| **`/build [brand]`** | Scaffolds a full 100% complete landing page. | Cinematic |
+| **`/build [concept]`** | Scaffolds a full 100% complete landing page. | Cinematic |
 | **`/ui [type]`** | Builds a high-fidelity component (e.g. `/ui pricing`). | Standard |
-| **`/minimalist`** | Activates the **Zen Protocol** (Whitespace, Scale, Hierarchy). | Minimal |
-| **`/brutalist`** | Activates **Tactical/Industrial UI** (Grids, Monospace). | Brutalist |
-| **`/soft`** | Activates **High-Fidelity/Vercel UI** (Glass, Noise, GSAP). | Cinematic |
+| **`/minimalist`** | Activates the **Zen Protocol** (Whitespace, Scale). | Minimal |
+| **`/brutalist`** | Activates **Tactical UI** (Grids, Monospace). | Brutalist |
+| **`/soft`** | Activates **High-Fidelity UI** (Glass, Noise). | Cinematic |
+| **`/boutique`** | Activates **Modern Artisanal** (Layered, Oat). | Boutique |
 | **`/audit`** | Full UI/UX, Performance, and A11y code audit. | Quality |
-| **`/launch`** | Production readiness (SEO + Open Graph + Deployment). | Devops |
+| **`/launch`** | Production readiness (SEO + OG Cards). | Devops |
+| **`/debug [error]`** | One-shot fix for any tech/build error. | Support |
+| **`/crud [model]`** | Scaffolds a full Admin/Dashboard page. | Data |
 
 ---
 
