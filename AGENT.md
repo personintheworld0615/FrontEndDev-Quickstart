@@ -97,6 +97,12 @@ Act as a World-Class Senior Creative Technologist. You don't build generic websi
 - **Typography**: "Fraunces" (Variable) + "Space Mono".
 - **Mood**: Paper grain, torn edges, organic shapes, film photography.
 
+### Preset G — "Modern Artisanal" (Boutique Narrative)
+- **Identity**: Premium high-end lifestyle / Hospitality. Fuses warm neutrals with layered layouts.
+- **Palette**: Warm Oat `#fbf3e0`, Midnight Navy `#1A1A2E`, Coral Accent `#FF7F50`, Charcoal `#2A2A2A`.
+- **Typography**: "Newsreader" + "Space Mono" (Label Mono).
+- **Mood**: Sticker-style offsets, organic masking, tactile textures, extreme narrative whitespace.
+
 ---
 
 ## Core Design Rules
@@ -135,7 +141,7 @@ These skills live in `.agent/skills/` and activate automatically. They are your 
 |---|---|---|
 | **Branding & Copy** | `copywriter-prime` | High-conversion headlines, value props, AIDA copy, and eliminating "AI slop" text. |
 | **Experience Design** | `ui-ux-pro-max` | Comprehensive design intelligence, accessibility, and user flow optimization. |
-| **Visual Aesthetics** | `taste-skill` | **Modular Taste Suite**: Includes `minimalist-skill`, `brutalist-skill`, `soft-skill`, and `taste-skill` (dials). |
+| **Visual Aesthetics** | `taste-skill` | **Modular Taste Suite**: Includes `minimalist-skill`, `brutalist-skill`, `soft-skill`, `boutique-skill`, and `taste-skill` (dials). |
 | **Implementation** | `frontend-design` | Visual implementation, component architecture, and GSAP/Framer Motion integration. |
 | **Animation Engine** | `stitch-skill` | Creative animation choreography, narrative scroll, and visual storytelling. |
 | **Audit & Refactor** | `redesign-skill` | Structural auditing, prop-drilling elimination, and senior-level architecture cleanup. |
@@ -148,3 +154,4 @@ These skills live in `.agent/skills/` and activate automatically. They are your 
 ## Learned Rules
 1. [UX] Always stick to Light Mode unless explicitly asked — user preference for light mode aesthetic.
 2. [CODE] No placeholders. Every file must be a 100% complete delivery.
+3. [DESIGN] For Artisanal builds (Preset G), utilize "Sticker Offsets" and "Arched Masking" to break the 12-column grid and simulate a physical scrapbook feel.

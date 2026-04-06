@@ -25,8 +25,8 @@ The `AGENT.md` and all skills load automatically upon opening the workspace.
 ## What you get
 
 - **Prompt router** — describe what you want in plain English, AntiGravity matches it to the right template and asks at most 2 questions before building.
-- **Cinematic landing page builder** — 5 aesthetic presets, full design system per preset, scaffolds a complete Next.js site in one conversation.
-- **3 bundled skills** that activate automatically based on user intent.
+- **Cinematic landing page builder** — 7 aesthetic presets (including **Preset G: Modern Artisanal**), full design system per preset, scaffolds a complete Next.js site in one conversation.
+- **7 Bundled Skills** that activate automatically based on user intent.
 - **Self-correcting rules engine** — corrects the agent once, it remembers for the whole project.
 
 ---
@@ -65,8 +65,9 @@ These live in `.agent/skills/` and activate automatically — they are your elit
 |---|---|
 | **`copywriter-prime`** | High-conversion headlines and eliminating "AI slop" copy. |
 | **`ui-ux-pro-max`** | Advanced Design Systems (Next-level palettes, fonts, spacing). |
-| **`taste-skill`** | "Vercel-core" aesthetics and high-density UI logic. |
+| **`taste-skill`** | **Modular Taste Suite**: includes Minimalist, Brutalist, Soft, and Boutique skills. |
 | **`frontend-design`** | Immersive 2025 interactions and GSAP/Framer Motion. |
+| **`stitch-skill`** | The Animation Engine (Narrative Scroll, Storytelling). |
 | **`react-best-practices`** | React 19 standards, performance (CLS), and accessibility. |
 | **`launch-expert`** | The "Final 20%" (SEO, OG Cards, JSON-LD, Sitemap). |
 
