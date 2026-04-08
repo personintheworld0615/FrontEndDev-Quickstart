@@ -11,7 +11,6 @@ Read this entire file before starting any task.
 - `/brutalist` — Activates **Industrial-Brutalist & Tactical Telemetry UI**.
 - `/soft` — Activates **High-Fidelity/Cinematic UI** (Vercel-core).
 - `/boutique` — Activates **Modern Artisanal & Boutique Narrative**.
-- `/food` — Activates **Local Food Business Architect** (Warm Hearth).
 - `/audit` — Triggers a full UI/UX, accessibility, and code-best-practices review.
 - `/launch` — Activates **Launch Protocol** (SEO, OG Cards, Vercel Config).
 - `/debug [error]` — One-shot fix for any tech/build error.
@@ -35,8 +34,7 @@ Match user intent to a shortcut or template. Fill known fields automatically, as
 ## Zero-Prompt Mode
 If the user provides ONLY a brand/concept (e.g. `/build coffee`), **skip all questions**. 
 1. Use `ui-ux-pro-max` to derive the best industry palette/fonts.
-2. Use `copywriter-prime` to generate the full brand narrative.
-3. Build the 100% complete page immediately.
+2. Build the 100% complete page immediately.
 
 ## Shortcut Map
 | Command | Intent |
@@ -149,16 +147,13 @@ These skills live in `.agent/skills/` and activate automatically. They are your 
 
 | **Domain** | **Skill** | **Expert Domain** |
 |---|---|---|
-| **Branding & Copy** | `copywriter-prime` | High-conversion headlines, AIDA copy, and eliminating "AI slop" text. |
-| **Strategy & Insight** | `research-prime` | Autonomous competitive auditing and "Taste" discovery (Karpathy-core). |
 | **Experience Design** | `ui-ux-pro-max` | Comprehensive design intelligence, accessibility, and user flow optimization. |
 | **Visual Aesthetics** | `taste-skill` | **Modular Taste Suite**: Includes `minimalist-skill`, `brutalist-skill`, `soft-skill`, `boutique-skill`, and `taste-skill`. |
-| **Industry Specialism** | `food-business-expert` | Menu architectures, Reservation flows, and local food storytelling. |
+| **Design Engineering** | `emil-design-eng` | UI polish, custom easing, and "invisible details" that make software feel great. |
 | **Implementation** | `frontend-design` | Visual implementation, component architecture, and GSAP/Framer Motion integration. |
-| **Animation Engine** | `stitch-skill` | Creative animation choreography, narrative scroll, and visual storytelling. |
 | **Audit & Refactor** | `pixel-perfect-audit` | Structural auditing, prop-drilling elimination, and senior-level architecture cleanup. |
 | **Code Ethics** | `react-best-practices` | Performance, a11y auditing, React 19 standards, and elimination of CLS. |
-| **Output Guard** | `output-skill` | Strictly enforces **zero placeholders** and 100% complete file deliveries. |
+| **Output Guard** | `impeccable` | Strictly enforces **zero placeholders** and 100% complete file deliveries. |
 | **Launch Protocol** | `launch-expert` | SEO (JSON-LD, Sitemap), Open Graph social cards, and Vercel/Deployment config. |
 
 ---
@@ -168,5 +163,3 @@ These skills live in `.agent/skills/` and activate automatically. They are your 
 2. [CODE] No placeholders. Every file must be a 100% complete delivery.
 3. [DESIGN] For Artisanal builds (Preset G), utilize "Sticker Offsets" and "Arched Masking" to break the 12-column grid and simulate a physical scrapbook feel.
 4. [QUALITY] Run `/audit` (Pixel-Perfect Sentinel) on every build to verify 1:1 CLS checks and WCAG 2.1 compliance.
-5. [COPY] All brand narratives must follow the AIDA framework (Attention, Interest, Desire, Action) and ban "AI slop" corporate keywords.
-6. [STRATEGY] Prioritize **Research-First** development. If a brand is new/unknown, use `research-prime` to scrape the top 3 global competitors and derive the "Taste" of the market before building.

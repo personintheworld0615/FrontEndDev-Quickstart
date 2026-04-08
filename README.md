@@ -42,7 +42,6 @@ Type these for instant execution without writing full sentences.
 | **`/brutalist`** | Activates **Tactical UI** (Grids, Monospace). | Brutalist |
 | **`/soft`** | Activates **High-Fidelity UI** (Glass, Noise). | Cinematic |
 | **`/boutique`** | Activates **Modern Artisanal** (Layered, Oat). | Boutique |
-| **`/food`** | Activates **Local Food Architect** (Warm Hearth). | Culinarian |
 | **`/audit`** | Full UI/UX, Performance, and A11y code audit. | Quality |
 | **`/launch`** | Production readiness (SEO + OG Cards). | Devops |
 | **`/debug [error]`** | One-shot fix for any tech/build error. | Support |
@@ -67,12 +66,9 @@ These live in `.agent/skills/` and activate automatically — they are your elit
 
 | Skill | Expert Domain |
 |---|---|
-| **`copywriter-prime`** | High-conversion headlines and eliminating "AI slop" copy. |
-| **`research-prime`** | Autonomous competitive auditing (Karpathy "AutoResearch"). |
 | **`ui-ux-pro-max`** | Advanced Design Systems (Next-level palettes, fonts, spacing). |
 | **`taste-skill`** | **Modular Taste Suite**: includes Minimalist, Brutalist, Soft, and Boutique skills. |
 | **`frontend-design`** | Immersive 2025 interactions and GSAP/Framer Motion. |
-| **`stitch-skill`** | The Animation Engine (Narrative Scroll, Storytelling). |
 | **`react-best-practices`** | React 19 standards, performance (CLS), and accessibility. |
 | **`pixel-perfect-audit`** | Seniors-only structural and accessibility auditing (WCAG 2.1). |
 | **`launch-expert`** | The "Final 20%" (SEO, OG Cards, JSON-LD, Sitemap). |
