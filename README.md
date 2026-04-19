@@ -2,7 +2,7 @@
 
 An **AntiGravity** quickstart for building production-quality frontend projects — no design experience required.
 
-Built on **Next.js 14**, **Tailwind CSS**, and **TypeScript**, deployed to **Vercel**.
+Built on **Next.js 15 (React 19)**, **Tailwind CSS v4**, and **TypeScript**, deployed to **Vercel**.
 
 ---
 
@@ -27,6 +27,7 @@ The `AGENT.md` and all skills load automatically upon opening the workspace.
 - **Prompt router** — describe what you want in plain English, AntiGravity matches it to the right template and asks at most 2 questions before building.
 - **Cinematic landing page builder** — 7 aesthetic presets (including **Preset G: Modern Artisanal**), full design system per preset, scaffolds a complete Next.js site in one conversation.
 - **7 Bundled Skills** that activate automatically based on user intent.
+- **21st.dev Integration** — Instant access to the world's best shadcn/ui React components.
 - **Self-correcting rules engine** — corrects the agent once, it remembers for the whole project.
 
 ---
@@ -37,7 +38,8 @@ Type these for instant execution without writing full sentences.
 | Command | Action | Mode |
 |---|---|---|
 | **`/build [concept]`** | Scaffolds a full 100% complete landing page. | Cinematic |
-| **`/ui [type]`** | Builds a high-fidelity component (e.g. `/ui pricing`). | Standard |
+| **`/ui [type]`** | Builds a high-fidelity component (enhanced by 21st.dev). | Standard |
+| **`/magic [prompt]`** | Scaffolds components using 21st.dev Magic MCP. | Magic |
 | **`/minimalist`** | Activates the **Zen Protocol** (Whitespace, Scale). | Minimal |
 | **`/brutalist`** | Activates **Tactical UI** (Grids, Monospace). | Brutalist |
 | **`/soft`** | Activates **High-Fidelity UI** (Glass, Noise). | Cinematic |
@@ -67,11 +69,12 @@ These live in `.agent/skills/` and activate automatically — they are your elit
 | Skill | Expert Domain |
 |---|---|
 | **`ui-ux-pro-max`** | Advanced Design Systems (Next-level palettes, fonts, spacing). |
-| **`taste-skill`** | **Modular Taste Suite**: includes Minimalist, Brutalist, Soft, and Boutique skills. |
-| **`frontend-design`** | Immersive 2025 interactions and GSAP/Framer Motion. |
-| **`react-best-practices`** | React 19 standards, performance (CLS), and accessibility. |
+| **`taste`** | **Modular Taste Suite**: Includes Minimalist, Brutalist, and Design-Taste-Frontend. |
+| **`emil-design-eng`** | UI polish, custom easing, and high-fidelity physics. |
+| **`impeccable`** | **Output Guard**: Zero placeholders, 100% complete file deliveries. |
 | **`pixel-perfect-audit`** | Seniors-only structural and accessibility auditing (WCAG 2.1). |
 | **`launch-expert`** | The "Final 20%" (SEO, OG Cards, JSON-LD, Sitemap). |
+| **`21st-dev-mcp`** | AI-powered React component generation & registry. |
 
 ---
 
@@ -97,3 +100,4 @@ AGENT.md           # AI instructions (don't delete)
 - **Minimalist approach** — if you prefer a clean look, ask for "Preset E" or "Hyper-Minimal".
 - **Ask for a review after any build** — say "review what you just built" for expert feedback.
 - **AGENT.md learns from corrections** — correct the agent once and it remembers for the rest of the project.
+- **Install the 21st.dev MCP** — Run `npx @21st-dev/cli@latest install <client>` to enable magic component generation.

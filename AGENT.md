@@ -6,7 +6,8 @@ Read this entire file before starting any task.
 
 ## ⚡ Quick-Triggers (Slash Commands)
 - `/build [concept]` — Scaffolds a full 100% complete landing page.
-- `/ui [type]` — Build a specific UI component using current Taste Dials.
+- `/ui [type]` — Build a specific UI component using current Taste Dials or 21st.dev components.
+- `/magic [prompt]` — Trigger 21st.dev Magic component generation.
 - `/minimalist` — Activates **Minimalist-Modern UI Architect** (Zen Protocol).
 - `/brutalist` — Activates **Industrial-Brutalist & Tactical Telemetry UI**.
 - `/soft` — Activates **High-Fidelity/Cinematic UI** (Vercel-core).
@@ -19,8 +20,8 @@ Read this entire file before starting any task.
 ---
 
 ## Technical Stack (NEVER DEVIATE)
-- **Framework**: Next.js 15 (App Router / React 19)
-- **Styling**: Tailwind CSS v3.4 + Shadcn UI (Component Pattern)
+- **Framework**: Next.js 15 (React 19)
+- **Styling**: Tailwind CSS v4 (Unified @theme CSS-variables)
 - **Language**: TypeScript (Strict Mode)
 - **Animations**: GSAP 3 (for macro) + Framer Motion (for micro)
 - **Scrolling**: Lenis (Smooth Scroll)
@@ -40,7 +41,8 @@ If the user provides ONLY a brand/concept (e.g. `/build coffee`), **skip all que
 | Command | Intent |
 |---|---|
 | `/build [brand]` | `[LANDING_PAGE]` (Skip discovery if brand provided) |
-| `/ui [component]` | `[COMPONENT]` |
+| `/ui [component]` | `[COMPONENT]` (Enhanced by 21st.dev) |
+| `/magic [prompt]` | `[21ST_DEV_MAGIC]` |
 | `/debug [error]` | `[DEBUG]` |
 | `/audit` | `[UI_REVIEW]` |
 | `/launch` | `[DEPLOY]` + `[LAUNCH_EXPERT]` |
@@ -135,7 +137,7 @@ Act as a World-Class Senior Creative Technologist. You don't build generic websi
     - **Card 4 — Narrative Scroll**: Horizontal parallax track that reveals steps as the user scrolls.
 
 ### 5. 2025 Architecture & Performance
-- **Component Pattern**: Use **Shadcn UI**-style modularity. Components should be self-contained in `components/ui/` or `components/shared/`.
+- **Component Pattern**: Use **Tailwind v4 @theme** for all colors, fonts, and radii. Components should be self-contained and leverage the global CSS design system.
 - **Zero-Layout-Shift (CLS)**: Every animation must be audited for CLS. Use absolute positioning or transforms, never animating layout props (width/height/margin) directly.
 - **Automated Audits**: Include a `scripts/audit.ts` that runs Lighthouse and Playwright for accessibility (a11y) and performance checks.
 
@@ -148,13 +150,14 @@ These skills live in `.agent/skills/` and activate automatically. They are your 
 | **Domain** | **Skill** | **Expert Domain** |
 |---|---|---|
 | **Experience Design** | `ui-ux-pro-max` | Comprehensive design intelligence, accessibility, and user flow optimization. |
-| **Visual Aesthetics** | `taste-skill` | **Modular Taste Suite**: Includes `minimalist-skill`, `brutalist-skill`, `soft-skill`, `boutique-skill`, and `taste-skill`. |
+| **Visual Aesthetics** | `taste` | **Modular Taste Suite**: Includes `minimalist-ui`, `industrial-brutalist-ui`, `high-end-visual-design`, and `design-taste-frontend`. |
 | **Design Engineering** | `emil-design-eng` | UI polish, custom easing, and "invisible details" that make software feel great. |
 | **Implementation** | `frontend-design` | Visual implementation, component architecture, and GSAP/Framer Motion integration. |
 | **Audit & Refactor** | `pixel-perfect-audit` | Structural auditing, prop-drilling elimination, and senior-level architecture cleanup. |
 | **Code Ethics** | `react-best-practices` | Performance, a11y auditing, React 19 standards, and elimination of CLS. |
-| **Output Guard** | `impeccable` | Strictly enforces **zero placeholders** and 100% complete file deliveries. |
+| **Output Guard** | `impeccable` | Strictly enforces **zero placeholders** and 100% complete file deliveries through modular guards. |
 | **Launch Protocol** | `launch-expert` | SEO (JSON-LD, Sitemap), Open Graph social cards, and Vercel/Deployment config. |
+| **Component Magic** | `21st-dev-mcp` | Direct access to world-class shadcn/ui components via the 21st.dev registry. |
 
 ---
 
@@ -163,3 +166,4 @@ These skills live in `.agent/skills/` and activate automatically. They are your 
 2. [CODE] No placeholders. Every file must be a 100% complete delivery.
 3. [DESIGN] For Artisanal builds (Preset G), utilize "Sticker Offsets" and "Arched Masking" to break the 12-column grid and simulate a physical scrapbook feel.
 4. [QUALITY] Run `/audit` (Pixel-Perfect Sentinel) on every build to verify 1:1 CLS checks and WCAG 2.1 compliance.
+5. [COMPLETENESS] Every generated website must be substantial (aiming for 3,000–4,000 lines of combined code and content) to ensure a "production-ready" feel and eliminate AI-generated "slop." This includes detailed sections, interactive components, and exhaustive styling.

@@ -1,17 +1,33 @@
-# Claude Code local settings (machine-specific, do not commit)
-.claude/settings.local.json
-
 # Dependencies
-node_modules/
+/node_modules
+/.pnp
+.pnp.js
 
-# Next.js build output
-.next/
-out/
+# Testing
+/coverage
 
-# Environment variables
-.env
-.env.local
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
 .env*.local
 
-# OS
-.DS_Store
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts

@@ -1,0 +1,33 @@
+{
+  "name": "frontend-quickstart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.0.3",
+    "react": "19.0.0-rc-66a9-20241107",
+    "react-dom": "19.0.0-rc-66a9-20241107",
+    "lucide-react": "^0.460.0",
+    "framer-motion": "^11.11.17",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.14",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "4.0.0-alpha.30",
+    "@tailwindcss/postcss": "4.0.0-alpha.30",
+    "postcss": "^8",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3"
+  }
+}
