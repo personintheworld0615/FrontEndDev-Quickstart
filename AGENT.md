@@ -6,12 +6,6 @@ Read this entire file before starting any task.
 
 ## ⚡ Quick-Triggers (Slash Commands)
 - `/build [concept]` — Scaffolds a full 100% complete landing page.
-- `/ui [type]` — Build a specific UI component using current Taste Dials or 21st.dev components.
-- `/magic [prompt]` — Trigger 21st.dev Magic component generation.
-- `/minimalist` — Activates **Minimalist-Modern UI Architect** (Zen Protocol).
-- `/brutalist` — Activates **Industrial-Brutalist & Tactical Telemetry UI**.
-- `/soft` — Activates **High-Fidelity/Cinematic UI** (Vercel-core).
-- `/boutique` — Activates **Modern Artisanal & Boutique Narrative**.
 - `/audit` — Triggers a full UI/UX, accessibility, and code-best-practices review.
 - `/launch` — Activates **Launch Protocol** (SEO, OG Cards, Vercel Config).
 - `/debug [error]` — One-shot fix for any tech/build error.
@@ -41,8 +35,6 @@ If the user provides ONLY a brand/concept (e.g. `/build coffee`), **skip all que
 | Command | Intent |
 |---|---|
 | `/build [brand]` | `[LANDING_PAGE]` (Skip discovery if brand provided) |
-| `/ui [component]` | `[COMPONENT]` (Enhanced by 21st.dev) |
-| `/magic [prompt]` | `[21ST_DEV_MAGIC]` |
 | `/debug [error]` | `[DEBUG]` |
 | `/audit` | `[UI_REVIEW]` |
 | `/launch` | `[DEPLOY]` + `[LAUNCH_EXPERT]` |
@@ -150,7 +142,7 @@ These skills live in `.agent/skills/` and activate automatically. They are your 
 | **Domain** | **Skill** | **Expert Domain** |
 |---|---|---|
 | **Experience Design** | `ui-ux-pro-max` | Comprehensive design intelligence, accessibility, and user flow optimization. |
-| **Visual Aesthetics** | `taste` | **Modular Taste Suite**: Includes `minimalist-ui`, `industrial-brutalist-ui`, `high-end-visual-design`, and `design-taste-frontend`. |
+| **Visual Aesthetics** | `taste` | **Modular Taste Suite**: Includes `minimalist-ui`, `industrial-brutalist-ui`, and `high-end-visual-design`. |
 | **Design Engineering** | `emil-design-eng` | UI polish, custom easing, and "invisible details" that make software feel great. |
 | **Implementation** | `frontend-design` | Visual implementation, component architecture, and GSAP/Framer Motion integration. |
 | **Audit & Refactor** | `pixel-perfect-audit` | Structural auditing, prop-drilling elimination, and senior-level architecture cleanup. |

@@ -38,12 +38,6 @@ Type these for instant execution without writing full sentences.
 | Command | Action | Mode |
 |---|---|---|
 | **`/build [concept]`** | Scaffolds a full 100% complete landing page. | Cinematic |
-| **`/ui [type]`** | Builds a high-fidelity component (enhanced by 21st.dev). | Standard |
-| **`/magic [prompt]`** | Scaffolds components using 21st.dev Magic MCP. | Magic |
-| **`/minimalist`** | Activates the **Zen Protocol** (Whitespace, Scale). | Minimal |
-| **`/brutalist`** | Activates **Tactical UI** (Grids, Monospace). | Brutalist |
-| **`/soft`** | Activates **High-Fidelity UI** (Glass, Noise). | Cinematic |
-| **`/boutique`** | Activates **Modern Artisanal** (Layered, Oat). | Boutique |
 | **`/audit`** | Full UI/UX, Performance, and A11y code audit. | Quality |
 | **`/launch`** | Production readiness (SEO + OG Cards). | Devops |
 | **`/debug [error]`** | One-shot fix for any tech/build error. | Support |
@@ -55,9 +49,6 @@ Type these for instant execution without writing full sentences.
 | What you want | What to say |
 |---|---|
 | A full site from scratch | **`/build coffee shop`** |
-| A specific "Tactical" UI | **`/brutalist dashboard`** |
-| A "Zen" portfolio | **`/minimalist gallery`** |
-| A high-end Vercel UI | **`/soft hero section`** |
 | Deployment | **`/launch`** |
 
 ---
@@ -69,10 +60,10 @@ These live in `.agent/skills/` and activate automatically — they are your elit
 | Skill | Expert Domain |
 |---|---|
 | **`ui-ux-pro-max`** | Advanced Design Systems (Next-level palettes, fonts, spacing). |
-| **`taste`** | **Modular Taste Suite**: Includes Minimalist, Brutalist, and Design-Taste-Frontend. |
 | **`emil-design-eng`** | UI polish, custom easing, and high-fidelity physics. |
 | **`impeccable`** | **Output Guard**: Zero placeholders, 100% complete file deliveries. |
 | **`pixel-perfect-audit`** | Seniors-only structural and accessibility auditing (WCAG 2.1). |
+| **`taste`** | **Aesthetic Suites**: Includes Minimalist, Brutalist, and Boutique styles. |
 | **`launch-expert`** | The "Final 20%" (SEO, OG Cards, JSON-LD, Sitemap). |
 | **`21st-dev-mcp`** | AI-powered React component generation & registry. |
 
