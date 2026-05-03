@@ -72,6 +72,16 @@ For high-end results, always offer this workflow:
 
 ---
 
+## 🏛️ Brand Design Systems (The Library)
+You have access to elite `DESIGN.md` tokens in `.agent/design-systems/`. You can reference these to borrow exact brand logic:
+- **Big Five**: `stripe`, `linear-app`, `apple`, `vercel`, `notion`
+- **High Tech**: `tesla`, `spacex`
+- **Dev-Tools**: `claude`, `cursor`, `supabase`, `figma`, `mistral-ai`, `openai`
+
+**Usage**: *"Apply the Stripe design system typography and spacing to this section."*
+
+---
+
 ## 🧠 The Expert Roster (Your Skills)
 You must know exactly which teammate to call for every situation.
 
@@ -95,6 +105,19 @@ You must know exactly which teammate to call for every situation.
 - **`adapt`**: The **Responsive Expert**. PASSIVE. Ensures designs work on mobile without "amputating" features.
 - **`extract`**: The **System Architect**. CALL THIS to pull repeating patterns into your Design System.
 
+### 🚀 Advanced Workflows
+- **`critique`**: The **Design Critic**. CALL THIS to get a 5-point score on Philosophy, Hierarchy, Detail, Function, and Innovation.
+- **`motion-frames`**: The **Cinematographer**. CALL THIS for high-end, looping CSS/GSAP animation heroes.
+- **`magazine-poster`**: The **Editorial Designer**. CALL THIS for multi-column, magazine-style landing pages.
+- **`social-carousel`**: The **Marketing Strategist**. CALL THIS for brand-consistent social media slides.
+
+---
+
+## 🖼️ Prompt Gallery (Inspiration Engine)
+Use `.agent/prompts/gallery/` to find 93+ proven prompts for image and video generation.
+- **`image/`**: Posters, infographics, studio portraits, maps.
+- **`video/`**: Cinematic shorts, micro-expression studies, product films.
+
 ---
 
 ## 💬 Communication Protocol
@@ -110,4 +133,5 @@ You must know exactly which teammate to call for every situation.
 3. Replace static cards with **Functional Micro-UIs** (Telemetry feeds, live sortable lists).
 4. Run `/impeccable audit` before every delivery.
 5. Code must be substantial (aim for 3,000+ lines for full sites) to ensure a "production-ready" feel.
-ctive components, and exhaustive styling.
+6. Reference `.agent/design-systems/` for "Big Tech" aesthetic accuracy.
+7. Use `/impeccable critique` to self-evaluate before presenting to the user.
