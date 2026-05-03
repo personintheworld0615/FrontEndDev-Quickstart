@@ -6,89 +6,93 @@ Built on **Next.js 15 (React 19)**, **Tailwind CSS v4**, and **TypeScript**, dep
 
 ---
 
-## Setup
+## 🚀 Supercharge Your Agent (Recommended)
+To get the most out of this Quickstart, we recommend adding these **Elite MCPs** to your chat client (Claude, Cursor, etc.):
 
-**1. Clone this quickstart into your project folder**
-```bash
-git clone <this-repo-url> my-project
-cd my-project
-```
-
-**2. Open in your IDE**
-Ensure you have the AntiGravity agent active in this workspace.
-
-**3. Initialize the environment**
-The `AGENT.md` and all skills load automatically upon opening the workspace.
-
----
-
-## What you get
-
-- **Prompt router** — describe what you want in plain English, AntiGravity matches it to the right template and asks at most 2 questions before building.
-- **Cinematic landing page builder** — 7 aesthetic presets (including **Preset G: Modern Artisanal**), full design system per preset, scaffolds a complete Next.js site in one conversation.
-- **7 Bundled Skills** that activate automatically based on user intent.
-- **21st.dev Integration** — Instant access to the world's best shadcn/ui React components.
-- **Self-correcting rules engine** — corrects the agent once, it remembers for the whole project.
-
----
-
-## 🔥 Slash Commands (Ultra-Speed)
-Type these for instant execution without writing full sentences.
-
-| Command | Action | Mode |
+| MCP | Purpose | Setup Link |
 |---|---|---|
-| **`/build [concept]`** | Scaffolds a full 100% complete landing page. | Cinematic |
-| **`/audit`** | Full UI/UX, Performance, and A11y code audit. | Quality |
-| **`/launch`** | Production readiness (SEO + OG Cards). | Devops |
-| **`/debug [error]`** | One-shot fix for any tech/build error. | Support |
-| **`/crud [model]`** | Scaffolds a full Admin/Dashboard page. | Data |
+| **Dribbble** | Inspiration & Visual Style Extraction | [Install Dribbble MCP](https://mcp.pipedream.com/app/dribbble) |
+| **Tavily** | Technical Research & Documentation Search | [Install Tavily MCP](https://mcp.pipedream.com/app/tavily) |
+| **21st-dev** | World-Class React Components | (Pre-configured) |
+| **StitchMCP** | Design Systems & Mockups | (Pre-configured) |
 
 ---
 
-## Example Flow
-| What you want | What to say |
-|---|---|
-| A full site from scratch | **`/build coffee shop`** |
-| Deployment | **`/launch`** |
+## ⌨️ Impeccable Command Palette
+Use these commands to trigger specific design workflows. Format: `/impeccable [command]`
+
+### 🛠️ Create & Shape
+- **`teach`**: Teach Impeccable who your product is for (Run this first!).
+- **`craft`**: Shape the design, then build it, all in one flow.
+- **`shape`**: Discovery-driven design brief before building.
+
+### 🔍 Evaluate & Audit
+- **`audit`**: Technical quality check (Performance, A11y, Design).
+- **`critique`**: Design review with scoring and persona tests.
+
+### 💅 Refine & Polish
+- **`animate`**: Add purposeful state-based motion.
+- **`overdrive`**: Push limits with shaders, physics, and 60fps motion.
+- **`typeset`**: Fix typography, hierarchy, and consistency.
+- **`layout`**: Fix visual rhythm, spacing, and grids.
+- **`bolder` / `quieter`**: Adjust the visual "volume" of the design.
+- **`delight`**: Add small, memorable personality moments.
+
+### 🏗️ Harden & System
+- **`harden`**: Production-ready pass (edge cases, error states, i18n).
+- **`optimize`**: Fix LCP, bundle size, and rendering performance.
+- **`onboard`**: Design first-run paths and empty states.
+- **`extract`**: Pull components/tokens into your design system.
+- **`document`**: Generate a `DESIGN.md` for team-wide brand consistency.
 
 ---
 
-## Bundled skills
+## 🎛️ Active Controls (The Dials)
+Control the "vibe" by asking me to adjust these dials (1–10):
+- **Design Variance**: (1 = Symmetrical · 10 = Artsy Chaos)
+- **Motion Intensity**: (1 = Static · 10 = Cinematic)
+- **Visual Density**: (1 = Airy · 10 = Packed Dashboard)
 
-These live in `.agent/skills/` and activate automatically — they are your elite teammates.
+---
+
+## 💎 Bundled Skills
+These live in `.agent/skills/` and activate automatically to ensure your site avoids "AI Slop."
 
 | Skill | Expert Domain |
 |---|---|
-| **`ui-ux-pro-max`** | Advanced Design Systems (Next-level palettes, fonts, spacing). |
-| **`emil-design-eng`** | UI polish, custom easing, and high-fidelity physics. |
-| **`impeccable`** | **Output Guard**: Zero placeholders, 100% complete file deliveries. |
-| **`pixel-perfect-audit`** | Seniors-only structural and accessibility auditing (WCAG 2.1). |
-| **`taste`** | **Aesthetic Suites**: Includes Minimalist, Brutalist, and Boutique styles. |
-| **`launch-expert`** | The "Final 20%" (SEO, OG Cards, JSON-LD, Sitemap). |
-| **`21st-dev-mcp`** | AI-powered React component generation & registry. |
+| **`impeccable`** | **Design Director**: Sets brand personality and kills generic defaults. |
+| **`taste`** | **Design Engineer**: Enforces high-end layouts, OKLCH colors, and bento grids. |
+| **`emil-design-eng`** | **Interaction Specialist**: Focuses on micro-animations and "invisible correctness." |
+| **`full-output`** | **Output Guard**: Zero placeholders. 100% complete file deliveries. |
+| **`minimalist-ui`** | **Aesthetic**: Notion/Linear vibes. Warm monochrome and crisp structure. |
+| **`industrial-ui`** | **Aesthetic**: Swiss typography, mechanical language, and sharp contrast. |
+| **`launch-expert`** | **Final Polish**: SEO, Open Graph, Sitemap, and Metadata. |
 
 ---
 
-## Project structure (after scaffolding)
+## 🎨 Image-First Pipeline
+1.  **Generate**: *"Generate a reference board for a luxury brand."*
+2.  **Analyze**: *"Analyze the 'Concept Spine' of that image."*
+3.  **Code**: *"Implement the section exactly like the reference."*
 
+---
+
+## Project Structure
 ```
 app/
   layout.tsx       # fonts, global providers
   page.tsx         # main page
   globals.css      # Tailwind + noise overlay
-components/        # split here if page.tsx > 600 lines
-public/
+components/        # extracted leaf components
 .agent/
   skills/          # bundled skills (auto-loaded)
-AGENT.md           # AI instructions (don't delete)
+AGENT.md           # Core instructions for the agent
 ```
 
 ---
 
 ## Pro Tips
-
-- **Start with the landing page builder** — just say "build me a landing page" to see the full power.
-- **Minimalist approach** — if you prefer a clean look, ask for "Preset E" or "Hyper-Minimal".
-- **Ask for a review after any build** — say "review what you just built" for expert feedback.
-- **AGENT.md learns from corrections** — correct the agent once and it remembers for the rest of the project.
-- **Install the 21st.dev MCP** — Run `npx @21st-dev/cli@latest install <client>` to enable magic component generation.
+- **Always start with `/impeccable teach`** — it creates a `.impeccable.md` file that guides all future work.
+- **Avoid "AI Purple"** — the `taste` skill automatically bans oversaturated purple/blue gradients.
+- **Use `min-h-[100dvh]`** — never use `h-screen` for heroes (it breaks on mobile). I do this by default.
+- **Ask for a review** — after any build, say "audit what you just built" for senior-level feedback.
