@@ -89,7 +89,8 @@
     "impeccable": {
       "source": "pbakaus/impeccable",
       "sourceType": "github",
-      "computedHash": "094491c0ae1dedba1865a45d8e9ec75520fb161e2d2fe0029cba914200335ba1"
+      "skillPath": ".agent/skills/impeccable/SKILL.md",
+      "computedHash": "55b7b109bf6bf40a4e77610204d3b73a166295294d49dd73190453c70507257f"
     },
     "industrial-brutalist-ui": {
       "source": "Leonxlnx/taste-skill",
